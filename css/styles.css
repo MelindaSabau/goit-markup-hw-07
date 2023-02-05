@@ -388,12 +388,12 @@ input[type="checkbox"]:checked + .checkbox__replace {
   color: #212121;
   margin-top: 94px;
 }
-
+/*
 .unstyled-listss {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-}
+}*/
 
 .we-do-section {
   width: 100%;
@@ -493,7 +493,7 @@ input[type="checkbox"]:checked + .checkbox__replace {
 }
 
 /* Customers section */
-.grid--six .grid__item {
+.grid--6 .grid__item {
   flex-basis: calc(100% / 6 - 16px);
 }
 
