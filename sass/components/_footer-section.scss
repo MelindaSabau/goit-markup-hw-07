@@ -7,7 +7,7 @@
   padding: 30px;
 }
 .logo_last-section {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .adress {
   font-family: "Roboto";
@@ -16,9 +16,9 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  margin-top: 28px;
+  margin-top: 20px;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 .mail,
 .tel {
@@ -47,12 +47,12 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--white-color);
   text-decoration: 1px solid #000000;
 }
 
 .footer-icon {
-  fill: #ffffff;
+  fill: var(--white-color);
   width: 20px;
   height: 20px;
   justify-content: center;
@@ -62,7 +62,6 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
-  margin-left: -40px;
 }
 
 .footer-social-link {
@@ -77,12 +76,8 @@
     background-color: var(--brand-color);
   }
 }
-.subscribe {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .footer-input {
-  display: inline-flex;
   width: 358px;
   height: 50px;
   background-color: #2f303a;
@@ -91,21 +86,16 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 .subscribe-icon {
   position: absolute;
   margin-left: 25px;
 }
-.subscribe-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #fff;
-  text-decoration: 1px solid #000000;
-  margin-bottom: -15px;
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
